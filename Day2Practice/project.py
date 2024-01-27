@@ -1,0 +1,5 @@
+name = input('Name: ')
+lastname = input('Lastname: ')
+sales = float(input('Sales: '))
+total = sales + (sales*0.13)
+print(f"Your total earnings are: {round(total, 2)}")
